@@ -2,6 +2,8 @@
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapTank", "ZapTank.csproj", "{197F47CF-081C-42C4-9489-46D5B92AFAB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFIUtils", "..\SFI-Utils\SFIUtils\SFIUtils.csproj", "{F88B16F5-8823-4162-86F6-5A432D4C40A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 	Debug|Any CPU = Debug|Any CPU
@@ -15,5 +17,11 @@ Global
 		{197F47CF-081C-42C4-9489-46D5B92AFAB1}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{197F47CF-081C-42C4-9489-46D5B92AFAB1}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{197F47CF-081C-42C4-9489-46D5B92AFAB1}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{F88B16F5-8823-4162-86F6-5A432D4C40A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88B16F5-8823-4162-86F6-5A432D4C40A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88B16F5-8823-4162-86F6-5A432D4C40A2}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88B16F5-8823-4162-86F6-5A432D4C40A2}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{F88B16F5-8823-4162-86F6-5A432D4C40A2}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88B16F5-8823-4162-86F6-5A432D4C40A2}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
