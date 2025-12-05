@@ -5,6 +5,8 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SFI-Utils\SFIUtils\SFIUtils.csproj" />
+    <Reference Include="SFIUtils">
+      <HintPath>..\SFI-Utils\SFIUtils\bin\Release\net8.0\SFIUtils.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

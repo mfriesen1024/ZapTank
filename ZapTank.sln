@@ -2,8 +2,6 @@
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapTank", "ZapTank.csproj", "{197F47CF-081C-42C4-9489-46D5B92AFAB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFIUtils", "..\SFI-Utils\SFIUtils\SFIUtils.csproj", "{705F1177-94DE-40F7-A370-235728E1B069}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 	Debug|Any CPU = Debug|Any CPU
