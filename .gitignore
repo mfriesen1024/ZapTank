@@ -16,3 +16,6 @@ mono_crash.*.json
 
 # IDE Ignores
 .idea/
+
+# Dropped files
+logs/
