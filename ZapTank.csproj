@@ -1,12 +1,10 @@
 <Project Sdk="Godot.NET.Sdk/4.5.1">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net8.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SFIUtils">
-      <HintPath>..\SFI-Utils\SFIUtils\bin\Release\net9.0\SFIUtils.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\SFI-Utils\SFIUtils\SFIUtils.csproj" />
   </ItemGroup>
 </Project>
