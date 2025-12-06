@@ -1,4 +1,6 @@
+using System;
 using Godot;
+using ZapTank.Core;
 using ZapTank.World.Entities.Tanks;
 
 namespace ZapTank.Controllers;
@@ -19,4 +21,12 @@ public abstract partial class TankController:Node
     /// Updates input properties when the network sends something.
     /// </summary>
     public abstract void NetworkUpdateInputStates();
+
+    /// <summary>
+    /// Sends input stuff to the event system so we can do stuff with it.
+    /// </summary>
+    protected void SendInputUpdate()
+    {
+        EventSystem.InputUpdatePush?.Invoke(this);
+    }
 }
