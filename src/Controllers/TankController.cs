@@ -14,8 +14,9 @@ public abstract partial class TankController:Node
 
     [Export] protected TankBase Parent;
 
+    // TODO Move this to networked TC.
     /// <summary>
-    /// Updates the given input fields when an input action is provided.
+    /// Updates input properties when the network sends something.
     /// </summary>
-    protected abstract void UpdateInputStates(InputEvent input);
+    public abstract void NetworkUpdateInputStates();
 }
